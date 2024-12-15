@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 52.5%;
+  }
+  .nav-mobile {
+    display: block;
+  }
+
+  .cover-container,
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .cover-img,
+  .about-img {
+    display: block;
+    margin: auto;
+  }
+  .top-btn {
+    display: none;
+  }
+}
