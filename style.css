@@ -18,14 +18,16 @@ html {
 .margin-bottom {
   margin-bottom: 1.2rem;
 }
+.nav-mobile {
+  display: none;
+}
 
-/*Top button*/
+/* Scoll to top */
 .top-btn {
   position: fixed;
   bottom: 2rem;
   right: 3rem;
   border: none;
-
   cursor: pointer;
   padding: 1.2rem;
   border-radius: 50%;
@@ -33,42 +35,16 @@ html {
 }
 .top-icon {
   color: #212529;
-  font-size: 3.2rem;
+  font-size: 4.5rem;
 }
 .top-icon:hover {
   color: #f1f3f5;
 }
-
-/* Navigation */
-.nav-mobile {
-  display: none;
-  position: fixed;
-  background: none;
-}
-
-.nav-ul {
-  display: flex;
-  padding: 1.2rem;
-  list-style: none;
-}
-.nav-link {
-  color: blueviolet;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-right: 2rem;
-  text-decoration: none;
-}
-
 /* Cover */
 .cover-section {
   width: 100%;
   background-color: #228be6;
-}
-.cover-container {
-  display: flex;
-  gap: 7rem;
-  padding: 5.6rem 0 5.6rem 0;
-  justify-content: center;
+  padding: 5.6rem 1.2rem;
 }
 .cover-text-box {
   text-align: center;
